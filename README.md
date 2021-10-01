@@ -3,9 +3,9 @@
 
 ![](https://img.shields.io/github/stars/Basstreb/Blog-Informatica.svg)![](https://img.shields.io/github/forks/Basstreb/Blog-Informatica.svg) ![](https://img.shields.io/github/issues/Basstreb/Blog-Informatica.svg)
 
-**Blog de Informatica**: Trabajo realizado en clase de Lenguaje de Marcas para el C.D.P. Escuelas Salesianas María Auxiliadora.
+**Blog de Informatica**: Trabajo realizado para la clase de Programación Web en C.D.P. Escuelas Salesianas María Auxiliadora.
 
 Contenidos:
-- Estructura HTML
+- Estructura HTML y PHP
 - Tabla de Estilos CSS
 - Implementación de Bootstrap
