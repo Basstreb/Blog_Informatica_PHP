@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns = "http://www.w3.org/2005/Atom">
+
+  <title>El tiempo</title>
+  <link href="https://www.tiempo.es" />
+  <author>
+    <name>Daniel Lozano Campano</name>
+  </author>
+  <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
+  <updated>2020-12-15T18:30:02Z</updated>
+
+  <entry>
+    <title>Tiempo en Sevilla</title>
+    <link href="https://www.tiempo.es/sevilla-es2510910.html" />
+    <content>Descripcion del tiempo en la Localidad de Sevilla</content>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+    <updated>2020-12-15T18:29:02Z</updated>
+  </entry>
+  <entry>
+    <title>Tiempo en Cordoba</title>
+    <link href="https://www.tiempo.es/cordoba-es2519239.html" />
+    <content>Descripcion del tiempo en la Localidad de Cordoba</content>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa8a</id>
+    <updated>2020-12-15T18:31:02Z</updated>
+  </entry>
+  <entry>
+    <title>Tiempo en Cádiz</title>
+    <link href="https://www.tiempo.es/cadiz-es2520597.html" />
+    <content>Descripcion del tiempo en la Localidad de Cádiz</content>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efb3a</id>
+    <updated>2020-12-15T18:32:02Z</updated>
+  </entry>
+  <entry>
+    <title>Tiempo en Huelva</title>
+    <link href="https://www.tiempo.es/huelva-es2516547.html" />
+    <content>Descripcion del tiempo en la Localidad de Huelva</content>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efb7a</id>
+    <updated>2020-12-15T18:33:02Z</updated>
+  </entry>
+
+</feed>

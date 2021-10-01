@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+  <channel>
+    <title>El tiempo</title>
+    <link>https://www.tiempo.es</link>
+    <description>Averiguar el Timepo en tu localidad</description>
+    <category>Clima</category>
+    <language>es-es</language>
+    <managingEditor>danlozcam@gmail.com (Daniel Lozano Campano)</managingEditor>
+    <webMaster>danlozcam@gmail.com (Daniel Lozano Campano)</webMaster>
+    <item>
+      <title>Tiempo en Sevilla</title>
+      <link>https://www.tiempo.es/sevilla-es2510910.html</link>
+      <description>Descripción del tiempo en la Localidad de Sevilla</description>
+    </item>
+    <item>
+      <title>Tiempo en Cordoba</title>
+      <link>https://www.tiempo.es/cordoba-es2519239.html</link>
+      <description>Descripción del tiempo en la Localidad de Cordoba</description>
+    </item>
+    <item>
+      <title>Tiempo en Cádiz</title>
+      <link>https://www.tiempo.es/cadiz-es2520597.html</link>
+      <description>Descripción del tiempo en la Localidad de Cádiz</description>
+    </item>
+    <item>
+      <title>Tiempo en Huelva</title>
+      <link>https://www.tiempo.es/huelva-es2516547.html</link>
+      <description>Descripción del tiempo en la Localidad de Huelva</description>
+    </item>
+  </channel>
+
+</rss>
