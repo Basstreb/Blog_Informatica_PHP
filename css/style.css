@@ -27,17 +27,34 @@ body {
     box-shadow: 3px 2px 6px 0px rgba(0, 0, 0, 0.75);
 }
 
+.activo {
+    background-color: #E73334;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 3px 2px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
 #navbar2 {
     background-color: #3a3a3a;
     box-shadow: 3px 2px 6px 0px rgba(0, 0, 0, 0.75);
     font-family: 'Oswald', sans-serif;
 }
 
-#navbar2 a {
+/* #navbar2 a {
+    color: white;
+} */
+
+#navbar2 a:hover {
+    color: #E73334;
+    text-decoration: none;
+    text-shadow: 4px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.navbar2noselected{
     color: white;
 }
 
-#navbar2 a:hover {
+.navbar2selected{
     color: #E73334;
     text-decoration: none;
     text-shadow: 4px 2px 2px rgba(0, 0, 0, 1);

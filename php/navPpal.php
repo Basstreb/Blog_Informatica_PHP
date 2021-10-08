@@ -12,16 +12,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto" id="nav">
                 <li class="nav-item ml-auto">
-                    <a class="nav-link pl-2 pr-2" href="index.php">Inicio </a>
+                    <a <?php if($mi_pagina=="index"){echo "class='nav-link pl-2 pr-2 activo'";}else{echo "class='nav-link pl-2 pr-2'";} ?> href="index.php">Inicio </a>
                 </li>
                 <li class="nav-item ml-auto">
-                    <a class="nav-link pl-2 pr-2" href="informatica.php">Informática</a>
+                    <a <?php if($mi_pagina=="infor"){echo "class='nav-link pl-2 pr-2 activo'";}else{echo "class='nav-link pl-2 pr-2'";} ?> href="informatica.php">Informática</a>
                 </li>
                 <li class="nav-item ml-auto">
-                    <a class="nav-link pl-2 pr-2" href="video.php">Videojuegos y Consolas</a>
+                    <a <?php if($mi_pagina=="video"){echo "class='nav-link pl-2 pr-2 activo'";}else{echo "class='nav-link pl-2 pr-2'";} ?> href="video.php">Videojuegos y Consolas</a>
                 </li>
                 <li class="nav-item ml-auto">
-                    <a class="nav-link pl-2 pr-2" href="smart.php">Smartphones</a>
+                    <a <?php if($mi_pagina=="smart"){echo "class='nav-link pl-2 pr-2 activo'";}else{echo "class='nav-link pl-2 pr-2'";} ?> href="smart.php">Smartphones</a>
                 </li>
             </ul>
         </div>

@@ -26,7 +26,8 @@
 
     <header id="header" class="fixed-top">
         <!-- NavBar Principal -->
-        <?php include 'navPpal.php' ?>
+        <?php $mi_pagina="video"?>
+        <?php include 'php/navPpal.php' ?>
         <!-- /NavBar Principal -->
 
     </header>
@@ -202,7 +203,7 @@
     <!-- /Main -->
 
     <!-- Footer y Contacto -->
-    <?php include 'footer.php' ?>
+    <?php include 'php/footer.php' ?>
     <!-- /Footer y Contacto -->
 
     <!-- Optional JavaScript; choose one of the two! -->

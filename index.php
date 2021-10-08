@@ -25,18 +25,19 @@
 
     <header id="header" class="sticky-top">
         <!-- NavBar Principal -->
-        <?php include 'navPpal.php' ?>
+        <?php $mi_pagina = "index" ?>
+        <?php include 'php/navPpal.php' ?>
         <!-- /NavBar Principal -->
 
         <!-- Navbar Secundario -->
         <nav id="navbar2">
             <div class="container">
                 <div class="row text-center pt-2 pb-2">
-                    <div class="col-3 col-sm offset-sm-1 col-lg-2 offset-lg-2"><a href="#hero">Principal</a>
+                    <div class="col-3 col-sm offset-sm-1 col-lg-2 offset-lg-2"><a href="#hero" class="navbar2noselected">Principal</a>
                     </div>
-                    <div class="col-3 col-sm col-lg-2"><a href="#destacadas">Destacadas</a></div>
-                    <div class="col-3 col-sm offset-sm-0 col-lg-2"><a href="#videos">Videos</a></div>
-                    <div class="col-3 col-sm col-lg-2"><a href="#contacto">Contacto</a></div>
+                    <div class="col-3 col-sm col-lg-2"><a href="#destacadas" class="navbar2noselected">Destacadas</a></div>
+                    <div class="col-3 col-sm offset-sm-0 col-lg-2"><a href="#videos" class="navbar2noselected">Videos</a></div>
+                    <div class="col-3 col-sm col-lg-2"><a href="#contacto" class="navbar2noselected">Contacto</a></div>
                 </div>
             </div>
         </nav>
@@ -236,7 +237,7 @@
     <!-- Videos -->
 
     <!-- Footer y Contacto -->
-    <?php include 'footer.php' ?>
+    <?php include 'php/footer.php' ?>
     <!-- /Footer y Contacto -->
 
     <!-- Optional JavaScript; choose one of the two! -->
